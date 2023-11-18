@@ -11,7 +11,7 @@ type UserType = {
 };
 
 type UserListPropsType = {
-  users: UserType;
+  users: UserType[];
 };
 
 export const UserList = (props: UserListPropsType) => {
